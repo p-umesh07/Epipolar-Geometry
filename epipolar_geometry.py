@@ -3,9 +3,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 import random
 
-UBIT = 'poojaume'
-np.random.seed(sum([ord(c) for c in UBIT]))
-
 img1 = cv2.imread("data/tsucuba_left.png", 0)
 img2 = cv2.imread("data/tsucuba_right.png", 0)
 
